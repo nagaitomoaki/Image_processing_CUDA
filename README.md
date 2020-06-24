@@ -1,4 +1,7 @@
 # Image_processing_CUDA
+This is for those who starts writing with CUDA and OpenCV.
+
+Source code is written very simple and easy to process image with CUDA.
 <table>
   <tr>
     <td><img src="img/input.jpg"></td>
