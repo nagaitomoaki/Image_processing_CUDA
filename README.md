@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td><img src="img/input.jpg"></td>
-    <td><img src="img/output_gpu.jpg"></td>
+    <td><img src="img/output_cpu.jpg"></td>
   </tr>
   <tr>
     <td align="middle">Input Image</td>
