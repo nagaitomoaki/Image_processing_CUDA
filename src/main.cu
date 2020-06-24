@@ -16,7 +16,7 @@ __const__ int WIDTH=1920;
 //__const__ int HIGHT=1277;
 
 //Number of iteration
-__const__ int ite=7;
+__const__ int ite=15;
 __const__ int s = ite/2;
 
 #define CHECK(call){                                                    \
@@ -109,12 +109,12 @@ void cpu(Mat& img){
 	for(int v=0;v<img.rows;v++){
 		for(int u=0;u<img.cols;u++){
 			sum = 0;
-			for(int x=-3;x<=3;x++){
-				for(int y=-3;y<=3;y++){
+			for(int x=-s;x<=s;x++){
+				for(int y=-s;y<=s;y++){
 					sum=sum+img.at<unsigned char>(v+y,u+x);
 				}
 			}
-			img_r.at<unsigned char>(v,u)=sum/7/7;
+			img_r.at<unsigned char>(v,u)=sum/(ite*ite);
 		}
 	}
 	//show and save result image

@@ -5,8 +5,8 @@
     <td><img src="img/output_gpu.jpg"></td>
   </tr>
   <tr>
-    <td>Input Image</td>
-    <td>Output Image After Median Blur</td>
+    <td align="middle">Input Image</td>
+    <td align="middle">Output Image After Median Blur</td>
   </tr>
 </table>
 
