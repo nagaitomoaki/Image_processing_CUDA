@@ -25,6 +25,7 @@ Source code is written very simple and easy to process image with CUDA.
 ## Build (Linux)
 
     git clone https://github.com/nagaitomoaki/Image_processing_CUDA.git
+    cd Image_processing_CUDA
     mkdir build
     cd build
     cmake ..

@@ -90,7 +90,7 @@ void gpu(Mat& img){
 	CHECK(cudaMemcpy(host_r,device_r, n_byte, cudaMemcpyDeviceToHost));
 
 	//show and save result image
-	imwrite("img/output_gpu.jpg",img_r);
+	imwrite("../img/output_gpu.jpg",img_r);
 	imshow("Output",img_r);
 	cvWaitKey(0);
 
@@ -118,7 +118,7 @@ void cpu(Mat& img){
 		}
 	}
 	//show and save result image
-	imwrite("img/output_cpu.jpg",img_r);
+	imwrite("../img/output_cpu.jpg",img_r);
 	imshow("Output",img_r);
 	cvWaitKey(0);
 }
@@ -126,7 +126,7 @@ void cpu(Mat& img){
 int main(void){
 
 	//read image
-	Mat img=imread("img/input.jpg", IMREAD_GRAYSCALE);
+	Mat img=imread("../img/input.jpg", IMREAD_GRAYSCALE);
 
 	//GPU-Processing
 	//gpu(img);
