@@ -1,4 +1,15 @@
 # Image_processing_CUDA
+<table>
+  <tr>
+    <td><img src="img/input.jpg"></td>
+    <td><img src="img/output_gpu.jpg"></td>
+  </tr>
+  <tr>
+    <td>Input Image</td>
+    <td>Output Image After Median Blur</td>
+  </tr>
+</table>
+
 # Build and Execution
 
 ## Dependencies
